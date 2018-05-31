@@ -1,0 +1,64 @@
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  background:
+  padding: 20px;
+}
+.parallax{
+    min-height: 500px;
+    width: 100%;
+    background: transparent;
+}
+p{
+  color: #f2f4f7;
+  font-family: 'Bangers', cursive;
+  font-size: 5.0em;
+
+
+}
+h1{
+  color: #f2f4f7;
+  font-family: 'Frijole', cursive;
+  font-size: 7.0em;
+  margin: 0 auto;
+  text-align: justify;
+  background-color:rgb(46, 68, 104);
+}
+h2{
+  font-family: 'Frijole', cursive;
+  font-size: 3.0em;
+  color:white;
+  margin-left: 10%;
+  border: ridge white 10px;
+  background-color: rgb(46, 68, 104);
+}
+.progress-container {
+  width: 100%;
+  height: 20px;
+  background: #ccc;
+}
+.progress-bar {
+  height: 20px;
+  background: black;
+  width: 100%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+p {
+    width: 3000px;
+    height: 150px;
+    background-color: rgb(46, 68, 104);
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 6s;
+    animation-name: change;
+    animation-duration: 8s;
+}
+@keyframes change {
+    from {background-color: black;}
+    to {background-color: rgb(86, 122, 181);}
+}
