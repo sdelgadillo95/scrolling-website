@@ -34,8 +34,6 @@ h2{
   font-size: 3.0em;
   color:white;
   margin-left: 10%;
-  border: ridge white 10px;
-  background-color: rgb(46, 68, 104);
   text-transform: capitalize;
   letter-spacing: 5px;
 }
@@ -92,4 +90,24 @@ p {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #b30000;
+}
+.speech-bubble {
+	position: relative;
+	background: rgb(86, 122, 181);
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 45px solid transparent;
+	border-bottom-color: rgb(86, 122, 181);
+	border-top: 0;
+	border-left: 0;
+	margin-left: -22.5px;
+	margin-top: -45px;
 }
